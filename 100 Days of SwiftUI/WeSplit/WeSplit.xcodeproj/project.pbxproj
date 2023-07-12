@@ -11,6 +11,7 @@
 		05DD225A2A5EBDFA009DA2EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DD22592A5EBDFA009DA2EE /* ContentView.swift */; };
 		05DD225C2A5EBDFD009DA2EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05DD225B2A5EBDFD009DA2EE /* Assets.xcassets */; };
 		05DD225F2A5EBDFD009DA2EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05DD225E2A5EBDFD009DA2EE /* Preview Assets.xcassets */; };
+		05DD22662A5EBE85009DA2EE /* TextAndSymbolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DD22652A5EBE85009DA2EE /* TextAndSymbolView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		05DD22592A5EBDFA009DA2EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		05DD225B2A5EBDFD009DA2EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05DD225E2A5EBDFD009DA2EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		05DD22652A5EBE85009DA2EE /* TextAndSymbolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAndSymbolView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				05DD22572A5EBDFA009DA2EE /* WeSplitApp.swift */,
 				05DD22592A5EBDFA009DA2EE /* ContentView.swift */,
+				05DD22652A5EBE85009DA2EE /* TextAndSymbolView.swift */,
 				05DD225B2A5EBDFD009DA2EE /* Assets.xcassets */,
 				05DD225D2A5EBDFD009DA2EE /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05DD22662A5EBE85009DA2EE /* TextAndSymbolView.swift in Sources */,
 				05DD225A2A5EBDFA009DA2EE /* ContentView.swift in Sources */,
 				05DD22582A5EBDFA009DA2EE /* WeSplitApp.swift in Sources */,
 			);
