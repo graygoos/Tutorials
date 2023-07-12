@@ -12,6 +12,7 @@ struct TextAndSymbolView: View {
         HStack {
             Image(systemName: "star")
                 .imageScale(.large)
+                .font(.headline)
                 .foregroundColor(.accentColor)
             Text("Aloha, world!")
                 .foregroundColor(.brown)
