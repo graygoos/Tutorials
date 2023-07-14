@@ -11,6 +11,10 @@
 		056A867B2A61690B00AD8845 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056A867A2A61690B00AD8845 /* ContentView.swift */; };
 		056A867D2A61690E00AD8845 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 056A867C2A61690E00AD8845 /* Assets.xcassets */; };
 		056A86802A61690E00AD8845 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 056A867F2A61690E00AD8845 /* Preview Assets.xcassets */; };
+		056A86872A61775D00AD8845 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056A86862A61775D00AD8845 /* CustomColor.swift */; };
+		0592E6402A61843B000C3DE8 /* ButtonsAndImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0592E63F2A61843B000C3DE8 /* ButtonsAndImages.swift */; };
+		0592E6422A618AC7000C3DE8 /* AlertMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0592E6412A618AC7000C3DE8 /* AlertMessages.swift */; };
+		0592E6442A6192D5000C3DE8 /* Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0592E6432A6192D5000C3DE8 /* Gradients.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		056A867A2A61690B00AD8845 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		056A867C2A61690E00AD8845 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		056A867F2A61690E00AD8845 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		056A86862A61775D00AD8845 /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
+		0592E63F2A61843B000C3DE8 /* ButtonsAndImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsAndImages.swift; sourceTree = "<group>"; };
+		0592E6412A618AC7000C3DE8 /* AlertMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertMessages.swift; sourceTree = "<group>"; };
+		0592E6432A6192D5000C3DE8 /* Gradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradients.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				056A86782A61690B00AD8845 /* GuessTheFlagApp.swift */,
 				056A867A2A61690B00AD8845 /* ContentView.swift */,
+				0592E6432A6192D5000C3DE8 /* Gradients.swift */,
+				0592E63F2A61843B000C3DE8 /* ButtonsAndImages.swift */,
+				0592E6412A618AC7000C3DE8 /* AlertMessages.swift */,
+				056A86862A61775D00AD8845 /* CustomColor.swift */,
 				056A867C2A61690E00AD8845 /* Assets.xcassets */,
 				056A867E2A61690E00AD8845 /* Preview Content */,
 			);
@@ -138,7 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				056A867B2A61690B00AD8845 /* ContentView.swift in Sources */,
+				0592E6402A61843B000C3DE8 /* ButtonsAndImages.swift in Sources */,
 				056A86792A61690B00AD8845 /* GuessTheFlagApp.swift in Sources */,
+				056A86872A61775D00AD8845 /* CustomColor.swift in Sources */,
+				0592E6422A618AC7000C3DE8 /* AlertMessages.swift in Sources */,
+				0592E6442A6192D5000C3DE8 /* Gradients.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
