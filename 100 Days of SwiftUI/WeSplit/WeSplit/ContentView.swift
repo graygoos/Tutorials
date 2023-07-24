@@ -13,7 +13,9 @@ struct ContentView: View {
     @State private var tipPercentage = 20
     @FocusState private var amountIsFocused: Bool
     
-    let tipPercentages = [10, 15, 20, 25, 0]
+    // challenge 3 solution
+    let tipPercentages = 0..<101
+//    let tipPercentages = [10, 15, 20, 25, 0]
     
     var totalPerPerson: Double {
         // calculate total per person
@@ -25,6 +27,15 @@ struct ContentView: View {
         let amountPerPerson = grandTotal / peopleCount
         
         return amountPerPerson
+    }
+    
+    var checkTotal: Double {
+        let tipSelection = Double(tipPercentage)
+        
+        let tipValue = checkAmount / 100 * tipSelection
+        let grandTotal = checkAmount + tipValue
+        
+        return grandTotal
     }
     
     var body: some View {
@@ -40,8 +51,11 @@ struct ContentView: View {
                             Text("\($0) people")
                         }
                     }
+                } header: {
+                    Text("Check amount")
                 }
                 
+                /*
                 Section {
                     Picker("Tip percentage", selection: $tipPercentage) {
                         ForEach(tipPercentages, id: \.self) {
@@ -52,9 +66,31 @@ struct ContentView: View {
                 } header: {
                     Text("How much tip do you want to leave?")
                 }
+                */
+                
+                // challenge 3 solution
+                Section {
+                    Picker("Tip percentage", selection: $tipPercentage) {
+                        ForEach(tipPercentages, id: \.self) {
+                            Text($0, format: .percent)
+                        }
+                    }
+                } header: {
+                    Text("How much tip do you want to leave?")
+                }
                 
                 Section {
                     Text(totalPerPerson, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
+                } header: {
+                    // challenge 1 solution
+                    Text("Amount per person")
+                }
+                
+                // challenge 2 solution
+                Section {
+                    Text(checkTotal, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
+                } header: {
+                    Text("Total amount (incl. tip)")
                 }
             }
             .navigationTitle("WeSplit")
