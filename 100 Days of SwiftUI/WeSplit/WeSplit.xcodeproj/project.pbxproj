@@ -7,24 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05DD22582A5EBDFA009DA2EE /* WeSplitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DD22572A5EBDFA009DA2EE /* WeSplitApp.swift */; };
-		05DD225A2A5EBDFA009DA2EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DD22592A5EBDFA009DA2EE /* ContentView.swift */; };
-		05DD225C2A5EBDFD009DA2EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05DD225B2A5EBDFD009DA2EE /* Assets.xcassets */; };
-		05DD225F2A5EBDFD009DA2EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05DD225E2A5EBDFD009DA2EE /* Preview Assets.xcassets */; };
-		05DD22662A5EBE85009DA2EE /* TextAndSymbolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DD22652A5EBE85009DA2EE /* TextAndSymbolView.swift */; };
+		057A3F1E2B063D2900D9F5E4 /* ViewsInLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057A3F1D2B063D2900D9F5E4 /* ViewsInLoop.swift */; };
+		059C699C2B05273200580E89 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059C699B2B05273200580E89 /* NavigationBar.swift */; };
+		059C699E2B05285D00580E89 /* ModifyProgramState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059C699D2B05285D00580E89 /* ModifyProgramState.swift */; };
+		059C69A02B0529F500580E89 /* BindingState2UIControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059C699F2B0529F500580E89 /* BindingState2UIControls.swift */; };
+		05F2AEBD2B051F3B00AE7C7F /* WeSplitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F2AEBC2B051F3B00AE7C7F /* WeSplitApp.swift */; };
+		05F2AEBF2B051F3B00AE7C7F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F2AEBE2B051F3B00AE7C7F /* ContentView.swift */; };
+		05F2AEC12B051F3C00AE7C7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05F2AEC02B051F3C00AE7C7F /* Assets.xcassets */; };
+		05F2AEC42B051F3C00AE7C7F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05F2AEC32B051F3C00AE7C7F /* Preview Assets.xcassets */; };
+		05F2AECB2B05261A00AE7C7F /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F2AECA2B05261A00AE7C7F /* Form.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		05DD22542A5EBDFA009DA2EE /* WeSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		05DD22572A5EBDFA009DA2EE /* WeSplitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitApp.swift; sourceTree = "<group>"; };
-		05DD22592A5EBDFA009DA2EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		05DD225B2A5EBDFD009DA2EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		05DD225E2A5EBDFD009DA2EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		05DD22652A5EBE85009DA2EE /* TextAndSymbolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAndSymbolView.swift; sourceTree = "<group>"; };
+		057A3F1D2B063D2900D9F5E4 /* ViewsInLoop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsInLoop.swift; sourceTree = "<group>"; };
+		059C699B2B05273200580E89 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		059C699D2B05285D00580E89 /* ModifyProgramState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyProgramState.swift; sourceTree = "<group>"; };
+		059C699F2B0529F500580E89 /* BindingState2UIControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingState2UIControls.swift; sourceTree = "<group>"; };
+		05F2AEB92B051F3B00AE7C7F /* WeSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05F2AEBC2B051F3B00AE7C7F /* WeSplitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitApp.swift; sourceTree = "<group>"; };
+		05F2AEBE2B051F3B00AE7C7F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		05F2AEC02B051F3C00AE7C7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05F2AEC32B051F3C00AE7C7F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		05F2AECA2B05261A00AE7C7F /* Form.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		05DD22512A5EBDFA009DA2EE /* Frameworks */ = {
+		05F2AEB62B051F3B00AE7C7F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -34,38 +42,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		05DD224B2A5EBDFA009DA2EE = {
+		05F2AEB02B051F3B00AE7C7F = {
 			isa = PBXGroup;
 			children = (
-				05DD22562A5EBDFA009DA2EE /* WeSplit */,
-				05DD22552A5EBDFA009DA2EE /* Products */,
+				05F2AEBB2B051F3B00AE7C7F /* WeSplit */,
+				05F2AEBA2B051F3B00AE7C7F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		05DD22552A5EBDFA009DA2EE /* Products */ = {
+		05F2AEBA2B051F3B00AE7C7F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				05DD22542A5EBDFA009DA2EE /* WeSplit.app */,
+				05F2AEB92B051F3B00AE7C7F /* WeSplit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		05DD22562A5EBDFA009DA2EE /* WeSplit */ = {
+		05F2AEBB2B051F3B00AE7C7F /* WeSplit */ = {
 			isa = PBXGroup;
 			children = (
-				05DD22572A5EBDFA009DA2EE /* WeSplitApp.swift */,
-				05DD22592A5EBDFA009DA2EE /* ContentView.swift */,
-				05DD22652A5EBE85009DA2EE /* TextAndSymbolView.swift */,
-				05DD225B2A5EBDFD009DA2EE /* Assets.xcassets */,
-				05DD225D2A5EBDFD009DA2EE /* Preview Content */,
+				05F2AEBC2B051F3B00AE7C7F /* WeSplitApp.swift */,
+				05F2AEBE2B051F3B00AE7C7F /* ContentView.swift */,
+				059C699B2B05273200580E89 /* NavigationBar.swift */,
+				059C699D2B05285D00580E89 /* ModifyProgramState.swift */,
+				059C699F2B0529F500580E89 /* BindingState2UIControls.swift */,
+				057A3F1D2B063D2900D9F5E4 /* ViewsInLoop.swift */,
+				05F2AECA2B05261A00AE7C7F /* Form.swift */,
+				05F2AEC02B051F3C00AE7C7F /* Assets.xcassets */,
+				05F2AEC22B051F3C00AE7C7F /* Preview Content */,
 			);
 			path = WeSplit;
 			sourceTree = "<group>";
 		};
-		05DD225D2A5EBDFD009DA2EE /* Preview Content */ = {
+		05F2AEC22B051F3C00AE7C7F /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				05DD225E2A5EBDFD009DA2EE /* Preview Assets.xcassets */,
+				05F2AEC32B051F3C00AE7C7F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -73,13 +85,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		05DD22532A5EBDFA009DA2EE /* WeSplit */ = {
+		05F2AEB82B051F3B00AE7C7F /* WeSplit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 05DD22622A5EBDFD009DA2EE /* Build configuration list for PBXNativeTarget "WeSplit" */;
+			buildConfigurationList = 05F2AEC72B051F3C00AE7C7F /* Build configuration list for PBXNativeTarget "WeSplit" */;
 			buildPhases = (
-				05DD22502A5EBDFA009DA2EE /* Sources */,
-				05DD22512A5EBDFA009DA2EE /* Frameworks */,
-				05DD22522A5EBDFA009DA2EE /* Resources */,
+				05F2AEB52B051F3B00AE7C7F /* Sources */,
+				05F2AEB62B051F3B00AE7C7F /* Frameworks */,
+				05F2AEB72B051F3B00AE7C7F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -87,25 +99,25 @@
 			);
 			name = WeSplit;
 			productName = WeSplit;
-			productReference = 05DD22542A5EBDFA009DA2EE /* WeSplit.app */;
+			productReference = 05F2AEB92B051F3B00AE7C7F /* WeSplit.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		05DD224C2A5EBDFA009DA2EE /* Project object */ = {
+		05F2AEB12B051F3B00AE7C7F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					05DD22532A5EBDFA009DA2EE = {
-						CreatedOnToolsVersion = 14.3.1;
+					05F2AEB82B051F3B00AE7C7F = {
+						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 05DD224F2A5EBDFA009DA2EE /* Build configuration list for PBXProject "WeSplit" */;
+			buildConfigurationList = 05F2AEB42B051F3B00AE7C7F /* Build configuration list for PBXProject "WeSplit" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,46 +125,51 @@
 				en,
 				Base,
 			);
-			mainGroup = 05DD224B2A5EBDFA009DA2EE;
-			productRefGroup = 05DD22552A5EBDFA009DA2EE /* Products */;
+			mainGroup = 05F2AEB02B051F3B00AE7C7F;
+			productRefGroup = 05F2AEBA2B051F3B00AE7C7F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				05DD22532A5EBDFA009DA2EE /* WeSplit */,
+				05F2AEB82B051F3B00AE7C7F /* WeSplit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		05DD22522A5EBDFA009DA2EE /* Resources */ = {
+		05F2AEB72B051F3B00AE7C7F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05DD225F2A5EBDFD009DA2EE /* Preview Assets.xcassets in Resources */,
-				05DD225C2A5EBDFD009DA2EE /* Assets.xcassets in Resources */,
+				05F2AEC42B051F3C00AE7C7F /* Preview Assets.xcassets in Resources */,
+				05F2AEC12B051F3C00AE7C7F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		05DD22502A5EBDFA009DA2EE /* Sources */ = {
+		05F2AEB52B051F3B00AE7C7F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05DD22662A5EBE85009DA2EE /* TextAndSymbolView.swift in Sources */,
-				05DD225A2A5EBDFA009DA2EE /* ContentView.swift in Sources */,
-				05DD22582A5EBDFA009DA2EE /* WeSplitApp.swift in Sources */,
+				059C69A02B0529F500580E89 /* BindingState2UIControls.swift in Sources */,
+				057A3F1E2B063D2900D9F5E4 /* ViewsInLoop.swift in Sources */,
+				05F2AEBF2B051F3B00AE7C7F /* ContentView.swift in Sources */,
+				05F2AEBD2B051F3B00AE7C7F /* WeSplitApp.swift in Sources */,
+				05F2AECB2B05261A00AE7C7F /* Form.swift in Sources */,
+				059C699E2B05285D00580E89 /* ModifyProgramState.swift in Sources */,
+				059C699C2B05273200580E89 /* NavigationBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		05DD22602A5EBDFD009DA2EE /* Debug */ = {
+		05F2AEC52B051F3C00AE7C7F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -185,7 +202,8 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -199,20 +217,22 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		05DD22612A5EBDFD009DA2EE /* Release */ = {
+		05F2AEC62B051F3C00AE7C7F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -245,7 +265,8 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -253,17 +274,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		05DD22632A5EBDFD009DA2EE /* Debug */ = {
+		05F2AEC82B051F3C00AE7C7F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -292,7 +313,7 @@
 			};
 			name = Debug;
 		};
-		05DD22642A5EBDFD009DA2EE /* Release */ = {
+		05F2AEC92B051F3C00AE7C7F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -324,25 +345,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		05DD224F2A5EBDFA009DA2EE /* Build configuration list for PBXProject "WeSplit" */ = {
+		05F2AEB42B051F3B00AE7C7F /* Build configuration list for PBXProject "WeSplit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				05DD22602A5EBDFD009DA2EE /* Debug */,
-				05DD22612A5EBDFD009DA2EE /* Release */,
+				05F2AEC52B051F3C00AE7C7F /* Debug */,
+				05F2AEC62B051F3C00AE7C7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		05DD22622A5EBDFD009DA2EE /* Build configuration list for PBXNativeTarget "WeSplit" */ = {
+		05F2AEC72B051F3C00AE7C7F /* Build configuration list for PBXNativeTarget "WeSplit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				05DD22632A5EBDFD009DA2EE /* Debug */,
-				05DD22642A5EBDFD009DA2EE /* Release */,
+				05F2AEC82B051F3C00AE7C7F /* Debug */,
+				05F2AEC92B051F3C00AE7C7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 05DD224C2A5EBDFA009DA2EE /* Project object */;
+	rootObject = 05F2AEB12B051F3B00AE7C7F /* Project object */;
 }
